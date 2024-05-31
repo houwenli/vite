@@ -1,0 +1,24 @@
+{
+  "name": "vite-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vite-plugin-checker": "^0.6.4",
+    "vite-plugin-compression": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202"
+  }
+}

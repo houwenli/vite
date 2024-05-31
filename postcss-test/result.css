@@ -1,0 +1,9 @@
+:root {
+  --globalColor: lightblue;
+}
+
+div {
+  background-color: var(--globalColor);
+  filter: blur(10px);
+  box-sizing: border-box;
+}
